@@ -82,7 +82,7 @@ This is a static website which is not deployed till now.
 "Emulation is a coding club of Accurate Group of Institutions"👇👇<br>
   <a href="https://www.instagram.com/emulation_accurate/">Instagram handle</a><br>
   Registration Link👇👇<br>
-  <a href="[forms.gle/HuKnKjjJtQNdw6Ny7](https://docs.google.com/forms/d/e/1FAIpQLSddmkA485zSTuB5ihh3e-Tg755NNrjntyWGkxzhmCeci5l1Lg/viewform)">Registration form</a>
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLSddmkA485zSTuB5ihh3e-Tg755NNrjntyWGkxzhmCeci5l1Lg/viewform">Registration form</a>
 
  ###  :fire: Contribution
 
