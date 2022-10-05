@@ -1,42 +1,41 @@
 # EmulationWebsite
 This repository is for our Club Website
 <h2>Emulation is a coding club of Accurate Institute of management & technology </h2>
-
-
+<image src="images/emulation logo.jpg"></image>
 # Introduction
 - Add your project logo.
 - Write a short introduction to the project.
 - If you are using badges, add them here.
 
-## Index
+## :ledger: Index
 
-- [About](#about)
-- [Usage](#usage)
-  - [Installation](#installation)
-  - [Commands](#commands)
-- [Development](#development)
-  - [Pre-Requisites](#pre-requisites)
-  - [Developmen Environment](#development-environment)
-  - [File Structure](#file-structure)
-  - [Build](#build)  
-  - [Deployment](#deployment)  
-- [Community](#community)
-  - [Contribution](#contribution)
-  - [Branches](#branches)
-  - [Guideline](guideline)  
-- [FAQ](#faq)
-- [Resources](#resources)
-- [Gallery](#gallery)
-- [Credit/Acknowledgment](#creditacknowledgment)
-- [License](#license)
+- [About](#beginner-about)
+- [Usage](#zap-usage)
+  - [Installation](#electric_plug-installation)
+  - [Commands](#package-commands)
+- [Development](#wrench-development)
+  - [Pre-Requisites](#notebook-pre-requisites)
+  - [Developmen Environment](#nut_and_bolt-development-environment)
+  - [File Structure](#file_folder-file-structure)
+  - [Build](#hammer-build)  
+  - [Deployment](#rocket-deployment)  
+- [Community](#cherry_blossom-community)
+  - [Contribution](#fire-contribution)
+  - [Branches](#cactus-branches)
+  - [Guideline](#exclamation-guideline)  
+- [FAQ](#question-faq)
+- [Resources](#page_facing_up-resources)
+- [Gallery](#camera-gallery)
+- [Credit/Acknowledgment](#star2-creditacknowledgment)
+- [License](#lock-license)
 
-## About
+##  :beginner: About
 Add a detailed introduction about the project here, everything you want the reader to know.
 
-## Usage
+## :zap: Usage
 Write about how to use this project.
 
-### Installation
+###  :electric_plug: Installation
 - Steps on how to install this project, to use it.
 - Be very detailed here, For example, if you have tools which run on different operating systems, write installation steps for all of them.
 
@@ -44,41 +43,62 @@ Write about how to use this project.
 $ add installations steps if you have to.
 ```
 
-### Commands
+###  :package: Commands
 - Commands to start the project.
 
-## Development
+##  :wrench: Development
 If you want other people to contribute to this project, this is the section, make sure you always add this.
 
-### Pre-Requisites
+### :notebook: Pre-Requisites
 List all the pre-requisites the system needs to develop this project.
 - A tool
 - B tool
 
-### Development Environment
+###  :nut_and_bolt: Development Environment
 Write about setting up the working environment for your project.
 - How to download the project...
 - How to install dependencies...
 
 
-### File Structure
+###  :file_folder: File Structure
 Add a file structure here with the basic details about files, below is an example.
+
+```
+.
+├── assets
+│   ├── css
+│   │   ├── index-ui.css
+│   │   └── rate-ui.css
+│   ├── images
+│   │   ├── icons
+│   │   │   ├── shrink-button.png
+│   │   │   └── umbrella.png
+│   │   ├── logo_144.png
+│   │   └── Untitled-1.psd
+│   └── javascript
+│       ├── index.js
+│       └── rate.js
+├── CNAME
+├── index.html
+├── rate.html
+└── README.md
+```
 
 | No | File Name | Details 
 |----|------------|-------|
 | 1  | index | Entry point
 
-### Build
+###  :hammer: Build
 Write the build Instruction here.
 
-### Deployment
+### :rocket: Deployment
 Write the deployment instruction here.
 
-## Community
+## :cherry_blossom: Community
 
 If it's open-source, talk about the community here, ask social media links and other links.
 
-### Contribution
+ ###  :fire: Contribution
 
  Your contributions are always welcome and appreciated. Following are the things you can do to contribute to this project.
 
@@ -94,7 +114,7 @@ If it's open-source, talk about the community here, ask social media links and o
  > If you are new to open-source, make sure to check read more about it [here](https://www.digitalocean.com/community/tutorial_series/an-introduction-to-open-source) and learn more about creating a pull request [here](https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github).
 
 
-### Branches
+ ### :cactus: Branches
 
  I use an agile continuous integration methodology, so the version is frequently updated and development is really fast.
 
@@ -118,21 +138,21 @@ If it's open-source, talk about the community here, ask social media links and o
 After this, changes will be merged.
 
 
-### Guideline
+### :exclamation: Guideline
 coding guidelines or other things you want people to follow should follow.
 
 
-## FAQ
+## :question: FAQ
 You can optionally add a FAQ section about the project.
 
-##  Resources
+##  :page_facing_up: Resources
 Add important resources here
 
-##  Gallery
+##  :camera: Gallery
 Pictures of your project.
 
-## Credit/Acknowledgment
+## :star2: Credit/Acknowledgment
 Credit the authors here.
 
-##  License
+##  :lock: License
 Add a license here, or a link to it.
