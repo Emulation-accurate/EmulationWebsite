@@ -1,11 +1,12 @@
 # EmulationWebsite
 This repository is for our Club Website
 <h2>Emulation is a coding club of Accurate Institute of management & technology </h2>
-<image src="images/emulation logo.jpg"></image>
-# Introduction
-- Add your project logo.
-- Write a short introduction to the project.
-- If you are using badges, add them here.
+<table>
+  <tr>
+    <td><image src="images/emulation logo.jpg" width=170 height=200></image></td>
+    <td><image src= "images/institute logo.png" width=170 height=200></image></td>
+  </tr>
+</table>
 
 ## :ledger: Index
 
@@ -30,73 +31,61 @@ This repository is for our Club Website
 - [License](#lock-license)
 
 ##  :beginner: About
-Add a detailed introduction about the project here, everything you want the reader to know.
+This is a HTML and CSS based Emulation website made by coding club members of Accurate Institute of management & technology
 
 ## :zap: Usage
-Write about how to use this project.
+This repositry can be directly cloned using the command git clone <url of the repositry>
+and then can be changed using html and css in notepad.
 
 ###  :electric_plug: Installation
 - Steps on how to install this project, to use it.
 - Be very detailed here, For example, if you have tools which run on different operating systems, write installation steps for all of them.
 
 ```
-$ add installations steps if you have to.
+$ add installations steps if you have to in future.
 ```
 
 ###  :package: Commands
-- Commands to start the project.
+- Click on the core team chrome html document to start the project.
 
 ##  :wrench: Development
-If you want other people to contribute to this project, this is the section, make sure you always add this.
+People participating in hactoberfest can contribute to this project, by solving the issues and making pull request.
 
 ### :notebook: Pre-Requisites
 List all the pre-requisites the system needs to develop this project.
-- A tool
-- B tool
-
-###  :nut_and_bolt: Development Environment
-Write about setting up the working environment for your project.
-- How to download the project...
-- How to install dependencies...
-
+- HTML CSS support
+- Operating system (eg: Windows, Linux, MacOS)
 
 ###  :file_folder: File Structure
 Add a file structure here with the basic details about files, below is an example.
 
 ```
 .
-├── assets
-│   ├── css
-│   │   ├── index-ui.css
-│   │   └── rate-ui.css
-│   ├── images
-│   │   ├── icons
-│   │   │   ├── shrink-button.png
-│   │   │   └── umbrella.png
-│   │   ├── logo_144.png
-│   │   └── Untitled-1.psd
-│   └── javascript
-│       ├── index.js
-│       └── rate.js
-├── CNAME
-├── index.html
-├── rate.html
+├── images
+│   ├── aman jha.jpeg
+│   ├── anurag chauhan.jpeg
+│   ├── anurag verma.jpeg
+│   ├── emulation logo.jpeg
+│   ├── institute logo.jpeg
+│   ├── nasir ali.jpeg
+│   ├── satyam.jpeg
+│   ├── shrey2.jpeg
+│   ├── shreyansh.jpeg
+├── core team.html
+├── style.css
 └── README.md
 ```
 
-| No | File Name | Details 
-|----|------------|-------|
-| 1  | index | Entry point
-
-###  :hammer: Build
-Write the build Instruction here.
-
 ### :rocket: Deployment
-Write the deployment instruction here.
+This is a static website which is not deployed till now.
 
 ## :cherry_blossom: Community
-
-If it's open-source, talk about the community here, ask social media links and other links.
+"Accurate Group of institution"<br>
+  <a href="https://www.instagram.com/accuratecollege/">Instagram handle</a><br>
+"Emulation is a coding club of Accurate Group of Institutions"<br>
+  <a href="https://www.instagram.com/emulation_accurate/">Instagram handle</a><br>
+  Registration Link👇👇<br>
+  <a href="forms.gle/HuKnKjjJtQNdw6Ny7">Registration form</a>
 
  ###  :fire: Contribution
 
@@ -137,22 +126,12 @@ If it's open-source, talk about the community here, ask social media links and o
 
 After this, changes will be merged.
 
-
-### :exclamation: Guideline
-coding guidelines or other things you want people to follow should follow.
-
-
-## :question: FAQ
-You can optionally add a FAQ section about the project.
-
-##  :page_facing_up: Resources
-Add important resources here
-
 ##  :camera: Gallery
-Pictures of your project.
+  ![image](https://user-images.githubusercontent.com/95741246/193998334-3a0270d6-c9ec-418c-8422-b0e4eda9aec7.png)
+  ![image](https://user-images.githubusercontent.com/95741246/193998436-07c112c1-9ed0-4f66-aab6-91801f92593e.png)
 
 ## :star2: Credit/Acknowledgment
-Credit the authors here.
+Club members of coding club of Accurate Institute of management & technology
 
 ##  :lock: License
 Add a license here, or a link to it.
