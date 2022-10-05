@@ -77,12 +77,12 @@ Add a file structure here with the basic details about files, below is an exampl
 This is a static website which is not deployed till now.
 
 ## :cherry_blossom: Community
-"Accurate Group of institution"<br>
+"Accurate Group of institution"👇👇<br>
   <a href="https://www.instagram.com/accuratecollege/">Instagram handle</a><br>
-"Emulation is a coding club of Accurate Group of Institutions"<br>
+"Emulation is a coding club of Accurate Group of Institutions"👇👇<br>
   <a href="https://www.instagram.com/emulation_accurate/">Instagram handle</a><br>
   Registration Link👇👇<br>
-  <a href="forms.gle/HuKnKjjJtQNdw6Ny7">Registration form</a>
+  <a href="[forms.gle/HuKnKjjJtQNdw6Ny7](https://docs.google.com/forms/d/e/1FAIpQLSddmkA485zSTuB5ihh3e-Tg755NNrjntyWGkxzhmCeci5l1Lg/viewform)">Registration form</a>
 
  ###  :fire: Contribution
 
