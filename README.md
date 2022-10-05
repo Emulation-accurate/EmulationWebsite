@@ -1,8 +1,7 @@
 # EmulationWebsite
 This repository is for our Club Website
 <h2>Emulation is a coding club of Accurate Institute of management & technology </h2>
-
-
+<image src="images/emulation logo.jpg"></image>
 # Introduction
 - Add your project logo.
 - Write a short introduction to the project.
