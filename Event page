@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+
+    <title>EMULATION EVENT PAGE</title>
+</head>
+
+<body>
+    <img id="course-image" src="./images/emulation logo.jpg" />
+
+    <h1>EMULATION  EVENT PAGE .</h1>
+    <p class="first">
+         This is the EMULATION EVENT PAGE in this you will get all Event about clube .
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSddmkA485zSTuB5ihh3e-Tg755NNrjntyWGkxzhmCeci5l1Lg/viewform">
+            JOIN US</a>.
+    </p>
+
+    
+</body>
+
+</html>
