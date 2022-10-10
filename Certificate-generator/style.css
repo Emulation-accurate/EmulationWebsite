@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans Mono', monospace;
+}
+
+body {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+}
+
+/* form Style */
+
+form {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 15px;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 10px;
+    gap: 10px;
+}
+
+.course,
+.name {
+    border-radius: 5px;
+}
+
+button {
+    height: 25px;
+    width: 80px;
+}
+
+/* certificate style */
+
+main {
+    text-align: center;
+    margin-top: 60px;
+    background-color: white;
+    width: 800px;
+    height: 700px;
+    border: 10px solid rgb(0, 145, 255);
+}
+
+.container {
+    background-color: whitesmoke;
+    margin: 20px;
+}
+
+.certificate-header {
+    height: 120px;
+    background-color: skyblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.certificate-header h1 {
+    font-size: 2.5rem;
+}
+
+
+.certificate-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    line-height: 30px;
+    font-size: 1.3rem;
+    height: 460px;
+}
+
+.certificate-header img {
+    position: relative;
+    top: 15px;
+    width: 100px;
+}
+
+
+.certificate-main img {
+    height: 100px;
+}
+
+.certificate-main{
+    line-height: 30px;
+}
+
+.sign{
+    margin-top: 20px;
+    font-size: 2rem;
+    font-family: 'Caveat', cursive;
+}
+
+.hr{
+    width: 300px;
+    height: 2px;
+    background-color: black;
+}
+
+.candidate-name{
+    margin: 5px;
+    font-size: 2rem;
+}
+
+.candidate_course{
+    margin: 5px;
+}
+
+h6{
+    margin-top: 10px;
+}
+
+.full_logo{
+    margin-top: 20px;
+    position: relative;
+    left: 10px;
+}
+
+@media screen and (max-width: 1348px) {
+
+    body{
+        flex-direction: column;
+    }
+}
