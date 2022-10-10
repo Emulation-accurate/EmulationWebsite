@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certification</title>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Candidate Detail -->
+    <form id="form">
+        <h1>Certificate</h1>
+        <div class="course">
+            <span>Course:</span>
+            <select name="course" id="course" class="course" required>
+                <option value=""></option>
+                <option value="Web Development">Web Development</option>
+                <option value="Android Development">Android Development</option>
+                <option value="Competitive Programming">Competitive Programming</option>
+            </select>
+        </div>
+
+        <div class="name">
+            <span>Name: </span>
+            <input type="text" placeholder="name" required id="name">
+        </div>
+        <div>
+            <button>Submit</button>
+            <button type="reset">Reset</button>
+        </div>
+    </form>
+
+
+    <!-- Certificate -->
+
+    <main>
+        <div class="container">
+
+            <div class="certificate-header">
+                <h1>Emulation<span></h1>
+                <h4>Issued <span class="month"></span> <span class="date"></span>, <span class="year"></span></span></h4>
+            </div>
+
+            <div class="certificate-main" id="form">
+                <p>This certifies that</p>
+                <h4 class="candidate-name" id="candidate_name"></h4>
+                <p>has successfully completed the Emulation</p>
+
+                <h4 class="candidate_course" id="subject"></h4>
+                <p>Developer Certification, representing approximately 300 hours of coursework.</p>
+
+                <p class="sign">director sign</p>
+                <div class="hr"></div>
+                <h6>Director Name</h6>
+                <h5>Executive Director, Emulation</h5>
+
+                <img class="full_logo" src="logo/full_logo.png" alt="Emulation">
+            </div>
+        </div>
+    </main>
+
+    <script src="certificate.js"></script>
+</body>
+
+</html>
