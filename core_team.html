@@ -6,12 +6,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="./images/favicon.ico">
+
+    <!-- nav necessory link  -->
+    <!-- google font -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;900&family=Ubuntu&display=swap"
+        rel="stylesheet">
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <link href="./CSS/CoreTeam.css" rel="stylesheet">
+
 
     <title>EMULATION ACCURATE</title>
 </head>
 
 <body>
+    <div id="nav"></div>
     <img id="course-image" src="./images/emulation logo.jpg" />
 
     <h1>EMULATION IS A CODING CLUB OF ACCURATE GROUP OF INSTITUTIONS.</h1>
@@ -59,7 +77,9 @@
 
     <h2>DEVELOPMENT MEMBERS</h2>
 
-    <b><p class="second">WEB DEVELOPMENT</p></b>
+    <b>
+        <p class="second">WEB DEVELOPMENT</p>
+    </b>
     <p><i>Nasir Ali</i></p>
     <p><i>Anurag Singh Chauhan</i></p>
     <p><i>Anurag Verma</i></p>
@@ -69,22 +89,33 @@
     <p><i>Shreyansh Singh</i></p>
     <p><i>Tushar Sharma</i></p>
 
-    <b><p class="second">ANDROID DEVELOPMENT MEMBERS</p></b>
+    <b>
+        <p class="second">ANDROID DEVELOPMENT MEMBERS</p>
+    </b>
     <p><i>Satram Srivastav</i></p>
     <p><i>Mohammad Aadil</i></p>
     <p><i>Sachin Agarwal</i></p>
     <p><i>Sunidhi</i></p>
 
-    <b><p class="second">COMPETITIVE PROGRAMMING</p></b>
+    <b>
+        <p class="second">COMPETITIVE PROGRAMMING</p>
+    </b>
     <p><i>Satyam Srivastav</i></p>
     <p><i>Aman Jha</i></p>
     <p><i>Anurag Sinha</i></p>
     <p><i>Shivam Kumari</i></p>
-    
+
     <p class="third">
         PLEASE DO CHECK OUT AND FOLLOW OUR SOCIAL MEDIA HANDLES
         <a href="https://www.instagram.com/emulation_accurate/">
             @instagram</a>.
+
+
+        <script>
+            $(function () {
+                $("#nav").load("./nav.html");
+            });
+        </script>
 </body>
 
 </html>

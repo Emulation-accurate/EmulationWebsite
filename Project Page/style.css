@@ -1,18 +1,18 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Noto Sans Mono', monospace;
 }
 
-body{
+body {
     background: linear-gradient(to top right, #cc99ff 0%, #66ccff 100%);
-    padding-top: 50px;
+    /* padding-top: 50px; */
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-main{
+main {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -23,24 +23,24 @@ main{
     transition: all 0.3s ease;
 }
 
-.header{
+.header {
     padding: 40px;
     font-size: 2rem;
     color: black;
-   
+
 }
 
-h1{
+h1 {
     transition: all ease 0.5s;
     width: 100%;
 }
 
-h1:hover{
+h1:hover {
     transform: scale(0.9);
 }
 
 
-.container{
+.container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding: 20px;
@@ -48,85 +48,84 @@ h1:hover{
 }
 
 
-.project-container{
+.project-container {
     background-color: rgb(255, 255, 255);
     border-radius: 20px;
     padding: 20px;
     cursor: pointer;
 }
 
-.image{
+.image {
     width: 480px;
     height: 360px;
     border-radius: 20px;
     overflow: hidden;
-    object-fit:fill;
+    object-fit: fill;
 }
 
-a:link{
+a:link {
     color: black;
     text-decoration: none;
 }
 
-a:visited{
+a:visited {
     color: black;
     text-decoration: none;
 }
 
-.image img{
+.image img {
     width: 600px;
     transition: all 0.7s ease;
 
 }
 
-.image img:hover{
+.image img:hover {
     transform: scale(1.2);
 
 }
 
-.info{
+.info {
     margin-top: 15px;
 }
 
-.info h4{
+.info h4 {
     font-size: 1.4rem;
 }
 
-@media screen and (max-width: 1024px){
-    .container{
+@media screen and (max-width: 1024px) {
+    .container {
         grid-template-columns: repeat(1, 1fr);
     }
 }
 
-@media screen and (max-width: 790px){
-    h1{
+@media screen and (max-width: 790px) {
+    h1 {
         font-size: 2.5rem;
     }
 }
 
-@media screen and (max-width: 600px){
-    .main{
+@media screen and (max-width: 600px) {
+    .main {
         width: 100vw;
     }
 
-    .project-container{
+    .project-container {
         width: 300px;
         overflow: hidden;
     }
 
-    .image{
+    .image {
         width: 300px;
         overflow: hidden;
     }
 
-    .image img{
+    .image img {
         width: 480px;
     }
 
-    h1{
+    h1 {
         font-size: 1.5rem;
     }
 
 
 }
-
