@@ -9,7 +9,7 @@ body {
     background-color: rgba(48, 10, 176, 0.385);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
-    padding: 40px;
+    /* padding: 40px; */
 }
 
 h1 {
@@ -35,8 +35,9 @@ p {
     width: 100px;
     height: 100px;
 }
+
 .core-team {
-    display:  grid;
+    display: grid;
     grid-template-columns: auto auto auto auto;
 }
 
