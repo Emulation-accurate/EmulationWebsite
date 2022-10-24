@@ -1,0 +1,19 @@
+The projects html file has some bugs need to be resolved according to my view.
+
+1) the <main> has been assigned to the flex property column, but the actual behavior is
+
+different. Also items are actually assigned to be align-items as centre value but actually 
+
+they're not assigned center.
+
+2) These are some of them i saw, also the website seems unrepsonsive due to some of these
+
+failing properties.
+
+feature suggestion:
+
+1) The core_team.html page could have been designed with lot more styles which was left undone.
+
+2) Header & footer part need to be changed. The footer part can have svg icons for social-media
+
+handles 
