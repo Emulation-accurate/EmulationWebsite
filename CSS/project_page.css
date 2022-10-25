@@ -1,13 +1,15 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Noto Sans Mono', monospace;
+
 }
 
 body {
+    font-family: 'Noto Sans Mono', monospace;
+
     background: linear-gradient(to top right, #cc99ff 0%, #66ccff 100%);
     /* padding-top: 50px; */
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
 }
