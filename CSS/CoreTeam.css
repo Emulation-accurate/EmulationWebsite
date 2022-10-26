@@ -1,3 +1,10 @@
+:root {
+    --primary: #845EC2;
+    --call_to_actio: #00C0A3;
+    --secondry: white;
+    --bg_color: #9b8be5;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -6,15 +13,23 @@
 }
 
 body {
-    background-color: rgba(48, 10, 176, 0.385);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* background-color: rgba(48, 10, 176, 0.385); */
+
+    background: var(--bg_color) url("../images/svg.png") no-repeat fixed center;
+    background-size: cover;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     /* padding: 40px; */
 }
 
-h1 {
-    font-size: 40px;
+
+.main_heading {
+    font-size: 3.7rem;
     margin-bottom: 20px;
+    color: var(--secondry);
+    line-height: 1.5;
+    font-weight: 900;
 }
 
 h2 {
@@ -26,14 +41,22 @@ p {
     margin-bottom: 20px;
 }
 
+main {
+    padding: 0 5%;
+}
+
+
 .first {
-    color: rgb(255, 13, 0);
+    /* color: rgb(255, 13, 0); */
+
 }
 
 
 #course-image {
     width: 100px;
     height: 100px;
+    border-radius: 50%;
+    margin: 2%;
 }
 
 .core-team {
@@ -43,4 +66,18 @@ p {
 
 .core-member img {
     border-radius: 13px;
+}
+
+.front_section {
+    min-height: 90vh;
+    padding: 14% 10%;
+
+}
+
+.button {
+    border: none;
+    margin-top: 3%;
+    background-color: var(--call_to_actio);
+    font-size: 1.5rem;
+    font-weight: 400;
 }
