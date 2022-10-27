@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+body {
+    background-color: rgba(48, 10, 176, 0.385);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    padding: 40px;
+}
+
+h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+.first {
+    color: rgb(255, 13, 0);
+}
+
+
+#course-image {
+    width: 100px;
+    height: 100px;
+}
