@@ -117,7 +117,7 @@ This is a static website which is not deployed till now.
 
 **Steps to create a pull request**
 
-1. Make a PR to `stage` branch.
+1. Make a "PR" to `stage` branch.
 2. Comply with the best practices and guidelines e.g. where the PR concerns visual elements it should have an image showing the effect.
 3. It must pass all continuous integration checks and get positive reviews.
 
