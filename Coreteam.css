@@ -7,9 +7,9 @@
 
 body {
     background-color: rgba(48, 10, 176, 0.385);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
-    padding: 10px;
+    padding: 40px;
 }
 
 h1 {
