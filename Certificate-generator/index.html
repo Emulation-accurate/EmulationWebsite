@@ -34,6 +34,11 @@
             <span>Name: </span>
             <input type="text" placeholder="name" required id="name">
         </div>
+
+        <div class="date">
+            Start: <input type="date" name="" id="start-date" required>
+            End: <input type="date" name="" id="end-date" required>
+        </div>
         <div>
             <button>Submit</button>
             <button type="reset">Reset</button>
@@ -43,32 +48,37 @@
 
     <!-- Certificate -->
 
-    <main>
+    <main id="main">
         <div class="container">
 
             <div class="certificate-header">
                 <h1>Emulation<span></h1>
-                <h4>Issued <span class="month"></span> <span class="date"></span>, <span class="year"></span></span></h4>
+                <h4 id="date_conatiner">Internship Conducted Between (<span id="startDate"></span> To <span
+                        id="endDate"></span>)</h4>
             </div>
 
             <div class="certificate-main" id="form">
-                <p>This certifies that</p>
+                <p>This certificate is awarded to</p>
                 <h4 class="candidate-name" id="candidate_name"></h4>
-                <p>has successfully completed the Emulation</p>
-
-                <h4 class="candidate_course" id="subject"></h4>
-                <p>Developer Certification, representing approximately 300 hours of coursework.</p>
+                <p>in appreciation of your successful completion of intership of the position of<b><span
+                            class="candidate_course" id="subject"></span></b>at Olcademy.</p>
 
                 <p class="sign">director sign</p>
                 <div class="hr"></div>
                 <h6>Director Name</h6>
                 <h5>Executive Director, Emulation</h5>
 
-                <img class="full_logo" src="logo/full_logo.png" alt="Emulation">
+                <img class="full_logo" src="image/full_logo.png" alt="Emulation">
             </div>
         </div>
+
+        <button id="btn" class="button">Download Button</button>
     </main>
 
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dom-to-image/2.6.0/dom-to-image.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.0/FileSaver.js"></script>
     <script src="certificate.js"></script>
 </body>
 
